@@ -1,4 +1,4 @@
-<img width="1782" height="856" alt="image" src="https://github.com/user-attachments/assets/e4dd1021-5024-4c85-8ffd-69b44070c1d0" />기본 URL: /api/calendars
+기본 URL: /api/calendars
 API 목록
 1. 일정 생성
 : 새로운 일정을 생성합니다.
