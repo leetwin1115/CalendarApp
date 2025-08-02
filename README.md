@@ -1,10 +1,9 @@
-기본 URL: /api/calendars
+<img width="1782" height="856" alt="image" src="https://github.com/user-attachments/assets/e4dd1021-5024-4c85-8ffd-69b44070c1d0" />기본 URL: /api/calendars
 API 목록
 1. 일정 생성
 : 새로운 일정을 생성합니다.
 
 요청 Request Body:
-JSON 형식입니다.
 {
   "title": "할 일 제목",
   "content": "상세 내용",
@@ -27,7 +26,6 @@ JSON 형식입니다.
 요청 Request Parameters:
 선택 사항) 특정 작성자의 이름을 필터링 조건으로 사용합니다.
 응답 Response Body:
-JSON 형식입니다.
 
   {
     "id": 1,
@@ -50,7 +48,6 @@ JSON 형식입니다.
 : 특정 ID를 가진 일정을 조회합니다.
 
 요청 Path Parameter:
-JSON 형식입니다.
 {
   "id": 1,
   "title": "첫 번째 일정",
@@ -67,14 +64,12 @@ JSON 형식입니다.
 id: 수정할 일정의 고유 ID.
 
 요청 Request Body:
-JSON 형식입니다.
 {
   "title": "새로운 제목",
   "author": "새로운 작성자",
   "password": "비밀번호"
 }
 
-JSON
 
 {
   "id": 1,
@@ -90,7 +85,6 @@ JSON
 
 id: 삭제할 일정의 고유 ID.
 요청 Request Body:
-JSON 형식입니다.
 {
   "password": "비밀번호"
 }
