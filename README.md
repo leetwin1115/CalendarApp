@@ -151,3 +151,5 @@ Success Response (204 No Content)
 
 
 ERD 다이어그램
+<img width="2446" height="956" alt="image" src="https://github.com/user-attachments/assets/f9241f74-3926-429e-afe1-a5b77e26f88d" />
+
