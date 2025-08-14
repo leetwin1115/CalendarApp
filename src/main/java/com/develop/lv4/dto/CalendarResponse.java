@@ -1,6 +1,6 @@
-package com.calendarapp.lv4.dto;
+package com.develop.lv4.dto;
 
-import com.calendarapp.lv4.entity.Calendar;
+import com.develop.lv4.entity.Calendar;
 import lombok.Getter;
 
 import java.time.LocalDateTime;
@@ -10,7 +10,7 @@ public class CalendarResponse {
     private final Long id;
     private final String title;
     private final String content;
-    private final String author;
+    private final String username; // author -> username
     private final LocalDateTime createdAt;
     private final LocalDateTime modifiedAt;
 
@@ -18,7 +18,7 @@ public class CalendarResponse {
         this.id = calendar.getId();
         this.title = calendar.getTitle();
         this.content = calendar.getContent();
-        this.author = calendar.getAuthor();
+        this.username = calendar.getUser().getUsername();
         this.createdAt = calendar.getCreatedAt();
         this.modifiedAt = calendar.getModifiedAt();
     }

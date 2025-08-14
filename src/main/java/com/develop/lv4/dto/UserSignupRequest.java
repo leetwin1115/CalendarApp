@@ -1,0 +1,10 @@
+package com.develop.lv4.dto;
+
+import lombok.Getter;
+
+@Getter
+public class UserSignupRequest {
+    private String username;
+    private String email;
+    private String password;
+}
