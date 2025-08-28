@@ -9,7 +9,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/calendars")
+@RequestMapping("/calendars")
 @RequiredArgsConstructor
 public class CalendarController {
 

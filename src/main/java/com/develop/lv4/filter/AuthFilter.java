@@ -18,7 +18,7 @@ import java.io.IOException;
 public class AuthFilter implements Filter {
 
     private final UserRepository userRepository;
-    private static final String[] whitelist = {"/api/users/signup", "/api/users/login"};
+    private static final String[] whitelist = {"/users/signup", "/users/login"};
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
